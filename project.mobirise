@@ -668,7 +668,7 @@
         {
           "_name": "slider1",
           "_sourceTheme": "directm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1 directm4_slider1\" group=\"Headers\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n\t<mbr-parameters>\n\t\t<input type=\"id\" name=\"sliderId\">\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n\t\t<input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"1\" max=\"12\" step=\"1\" value=\"10\" condition=\"!fullScreen\">\n\t\t<header>Carousel</header>\n\t\t<input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\" checked>\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked>\n\t\t<input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n\t\t<input type=\"color\" title=\"Indicators\" name=\"indicatorsColor\" value=\"#e5e5e5\" selected>\n\t\t<input type=\"color\" title=\"Active Indicator\" name=\"activeIndicatorColor\" value=\"#e1bb78\" selected>\n\t\t<header>Slide</header>\n\t\t<input type=\"checkbox\" title=\"Caption\" name=\"showCaption\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\">\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"checkbox\" title=\"Link\" name=\"showLink\" condition=\"showButtons\">\n\t\t<input type=\"checkbox\" title=\"Arrow\" name=\"showArrow\" condition=\"fullScreen\" checked>\n\t\t<select title=\"Buttons Align\" name=\"buttonsAlign\">\n\t\t\t<option value>Left</option>\n\t\t\t<option value=\"justify-content-center\" selected>Center</option>\n\t\t\t<option value=\"justify-content-end\">Right</option>\n\t\t</select>\n\t\t<header>Background</header>\n\t\t<input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#eeeeee\" selected>\n\t</mbr-parameters>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n\t\t\t<ol class=\"carousel-indicators\">\n\t\t\t\t<li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li>\n\t\t\t\t<li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></li>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</ol>\n\t\t\t<div class=\"carousel-inner\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<div class=\"carousel-item slider-image item active\">\n\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t<img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/0193.webp\" alt>\n\t\t\t\t\t\t<div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"carousel-caption\" mbr-if=\"showCaption\">\n\t\t\t\t\t\t\t<div class=\"row justify-content-center\">\n\t\t\t\t\t\t\t\t<div class=\"col-md-{{contentWidth}}\">\n\t\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-white\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">LUXURY</h1>\n\t\t\t\t\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 mbr-white\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Athens Airport Lodge</h2>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t\t\t\tChoose from the large selection of latest pre-made blocks - jumbotrons, hero\n\t\t\t\t\t\t\t\t\t\timages,\n\t\t\t\t\t\t\t\t\t\tparallax scrolling, video backgrounds, hamburger menu, sticky header and more.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<div class=\"buttons-wrap d-flex align-left {{buttonsAlign}} align-self-center\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">BOOK ONLINE</a></div>\n\t\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn link align-self-center\" mbr-if=\"showLink && showButtons\"><a class=\"btn btn-md btn-white-outline my-auto ml-md-4 ml-0\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"carousel-item slider-image item\">\n\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t<img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/0188.webp\" data-slide-to=\"2\" data-bs-slide-to=\"3\">\n\t\t\t\t\t\t<div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"carousel-caption\" mbr-if=\"showCaption\">\n\t\t\t\t\t\t\t<div class=\"row justify-content-center\">\n\t\t\t\t\t\t\t\t<div class=\"col-md-{{contentWidth}}\">\n\t\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-white\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">LUXURY</h1>\n\t\t\t\t\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 mbr-white\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Athens Airport Loft</h2>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t\t\t\tChoose from the large selection of latest pre-made blocks - jumbotrons, hero\n\t\t\t\t\t\t\t\t\t\timages,\n\t\t\t\t\t\t\t\t\t\tparallax scrolling, video backgrounds, hamburger menu, sticky header and more.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<div class=\"buttons-wrap d-flex align-left {{buttonsAlign}} align-self-center\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">Book Online</a></div>\n\t\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn link align-self-center\" mbr-if=\"showLink && showButtons\"><a class=\"btn btn-md btn-white-outline my-auto ml-md-4 ml-0\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Or View\n\t\t\t\t\t\t\t\t\t\t\t\tDemo</a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\t\t\t<a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n\t\t\t\t<span class=\"mbri-left\" aria-hidden=\"true\"></span>\n\t\t\t\t<span class=\"sr-only visually-hidden\">Previous</span>\n\t\t\t</a>\n\t\t\t<a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n\t\t\t\t<span class=\"mbri-right\" aria-hidden=\"true\"></span>\n\t\t\t\t<span class=\"sr-only visually-hidden\">Next</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1 directm4_slider1\" group=\"Headers\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n\t<mbr-parameters>\n\t\t<input type=\"id\" name=\"sliderId\">\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n\t\t<input type=\"range\" inline=\"\" title=\"Content Width\" name=\"contentWidth\" min=\"1\" max=\"12\" step=\"1\" value=\"10\" condition=\"!fullScreen\">\n\t\t<header>Carousel</header>\n\t\t<input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\" checked=\"\">\n\t\t<input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n\t\t<input type=\"color\" title=\"Indicators\" name=\"indicatorsColor\" value=\"#e5e5e5\" selected=\"\">\n\t\t<input type=\"color\" title=\"Active Indicator\" name=\"activeIndicatorColor\" value=\"#e1bb78\" selected=\"\">\n\t\t<header>Slide</header>\n\t\t<input type=\"checkbox\" title=\"Caption\" name=\"showCaption\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\">\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Link\" name=\"showLink\" condition=\"showButtons\">\n\t\t<input type=\"checkbox\" title=\"Arrow\" name=\"showArrow\" condition=\"fullScreen\" checked=\"\">\n\t\t<select title=\"Buttons Align\" name=\"buttonsAlign\">\n\t\t\t<option value=\"\">Left</option>\n\t\t\t<option value=\"justify-content-center\" selected=\"\">Center</option>\n\t\t\t<option value=\"justify-content-end\">Right</option>\n\t\t</select>\n\t\t<header>Background</header>\n\t\t<input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#eeeeee\" selected=\"\">\n\t</mbr-parameters>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n\t\t\t<ol class=\"carousel-indicators\">\n\t\t\t\t<li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li>\n\t\t\t\t<li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\"></li>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t</ol>\n\t\t\t<div class=\"carousel-inner\">\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<div class=\"carousel-item slider-image item active\">\n\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t<img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/0194-735x430.jpg\" alt=\"\">\n\t\t\t\t\t\t<div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"carousel-caption\" mbr-if=\"showCaption\">\n\t\t\t\t\t\t\t<div class=\"row justify-content-center\">\n\t\t\t\t\t\t\t\t<div class=\"col-md-{{contentWidth}}\">\n\t\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-white\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Athens Airport Lodge</h1>\n\t\t\t\t\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 mbr-white\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">Athens Airport Lodge 117 sqm</h2>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t\t\t\tChoose from the large selection of latest pre-made blocks - jumbotrons, hero\n\t\t\t\t\t\t\t\t\t\timages,\n\t\t\t\t\t\t\t\t\t\tparallax scrolling, video backgrounds, hamburger menu, sticky header and more.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<div class=\"buttons-wrap d-flex align-left {{buttonsAlign}} align-self-center\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t\t<div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-md btn-primary\" href=\"https://ibe.channex.io/online-booking-athens-airport\" data-app-placeholder=\"Type Text\" target=\"_blank\">BOOK ONLINE</a></div>\n\t\t\t\t\t\t\t\t\t\t<div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn link align-self-center\" mbr-if=\"showLink &amp;&amp; showButtons\"><a class=\"btn btn-md btn-white-outline my-auto ml-md-4 ml-0\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"></a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"carousel-item slider-image item\">\n\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t<img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/dsc00083.webp\" data-slide-to=\"2\" data-bs-slide-to=\"3\" alt=\"\">\n\t\t\t\t\t\t<div class=\"mbr-overlay\" mbr-if=\"overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"carousel-caption\" mbr-if=\"showCaption\">\n\t\t\t\t\t\t\t<div class=\"row justify-content-center\">\n\t\t\t\t\t\t\t\t<div class=\"col-md-{{contentWidth}}\">\n\t\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-white\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Athens Airport Loft</h1>\n\t\t\t\t\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 mbr-white\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"></h2>\n\t\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n\t\t\t\t\t\t\t\t\t\tChoose from the large selection of latest pre-made blocks - jumbotrons, hero\n\t\t\t\t\t\t\t\t\t\timages,\n\t\t\t\t\t\t\t\t\t\tparallax scrolling, video backgrounds, hamburger menu, sticky header and more.\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t<div class=\"buttons-wrap d-flex align-left {{buttonsAlign}} align-self-center\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t\t<div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">Book Online</a></div>\n\t\t\t\t\t\t\t\t\t\t<div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn link align-self-center\" mbr-if=\"showLink &amp;&amp; showButtons\"><a class=\"btn btn-md btn-white-outline my-auto ml-md-4 ml-0\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">Or View\n\t\t\t\t\t\t\t\t\t\t\t\tDemo</a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\t\t\t<a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n\t\t\t\t<span class=\"mbri-left\" aria-hidden=\"true\"></span>\n\t\t\t\t<span class=\"sr-only visually-hidden\">Previous</span>\n\t\t\t</a>\n\t\t\t<a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n\t\t\t\t<span class=\"mbri-right\" aria-hidden=\"true\"></span>\n\t\t\t\t<span class=\"sr-only visually-hidden\">Next</span>\n\t\t\t</a>\n\t\t</div>\n\t</div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
@@ -883,73 +883,11 @@
               "color": "#ffffff"
             },
             ".mbr-section-title": {
-              "color": "#d48a06"
+              "color": "#e3ebf3"
             }
           },
           "_cid": "tXT6zhgrLF",
           "_anchor": "slider1-9",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
-            },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#e3ebf3",
-              "a": {
-                "pointer-events": "none"
-              },
-              "text-align": "center"
-            },
-            ".mbr-section-subtitle": {
-              "margin-top": "40px",
-              "color": "#6c7a88",
-              "@media (max-width: 1399px)": {
-                "margin-top": "30px"
-              },
-              "@media (max-width: 767px)": {
-                "margin-top": "20px"
-              }
-            },
-            ".mbr-section-btn": {
-              "margin-top": "30px",
-              "@media (max-width: 767px)": {
-                "margin-top": "20px"
-              }
-            }
-          },
-          "_name": "aarticle1",
-          "_sourceTheme": "homem5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article1 homem5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"11\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">Enjoy the Athens Suburbs feel,&nbsp;<a href=\"#\" class=\"text-secondary\">while being close to Athens Airport,&nbsp;</a>shopping malls and sandy beaches.\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\" mbr-theme-style=\"display-5\">\n                    Proin sagittis nisl rhoncus mattis vulputate sapien nec sagittis aliquam malesuada.\n                </h4>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">Select house</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "ty7aBJ5baz",
-          "_anchor": "aarticle1-3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1133,6 +1071,68 @@
           "_once": false,
           "_params": {},
           "_anchor": "afeatures2-f"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#e3ebf3",
+              "a": {
+                "pointer-events": "none"
+              },
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "margin-top": "40px",
+              "color": "#6c7a88",
+              "@media (max-width: 1399px)": {
+                "margin-top": "30px"
+              },
+              "@media (max-width: 767px)": {
+                "margin-top": "20px"
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "30px",
+              "@media (max-width: 767px)": {
+                "margin-top": "20px"
+              }
+            }
+          },
+          "_name": "aarticle1",
+          "_sourceTheme": "homem5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article1 homem5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"11\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1a1e21\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1a1e21\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-0\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">Enjoy the Athens Suburbs feel,&nbsp;<a href=\"#\" class=\"text-secondary\">while being close to Athens Airport,&nbsp;</a>shopping malls and sandy beaches.\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\" mbr-theme-style=\"display-5\">\n                    Proin sagittis nisl rhoncus mattis vulputate sapien nec sagittis aliquam malesuada.\n                </h4>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">Select house</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "ty7aBJ5baz",
+          "_anchor": "aarticle1-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "_name": "gallery1",

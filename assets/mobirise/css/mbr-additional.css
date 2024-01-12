@@ -1484,53 +1484,7 @@ strong {
   color: #ffffff;
 }
 .cid-tXT6zhgrLF .mbr-section-title {
-  color: #d48a06;
-}
-.cid-ty7aBJ5baz {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #1a1e21;
-}
-.cid-ty7aBJ5baz .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-ty7aBJ5baz .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-ty7aBJ5baz .mbr-section-title {
   color: #e3ebf3;
-  text-align: center;
-}
-.cid-ty7aBJ5baz .mbr-section-title a {
-  pointer-events: none;
-}
-.cid-ty7aBJ5baz .mbr-section-subtitle {
-  margin-top: 40px;
-  color: #6c7a88;
-}
-@media (max-width: 1399px) {
-  .cid-ty7aBJ5baz .mbr-section-subtitle {
-    margin-top: 30px;
-  }
-}
-@media (max-width: 767px) {
-  .cid-ty7aBJ5baz .mbr-section-subtitle {
-    margin-top: 20px;
-  }
-}
-.cid-ty7aBJ5baz .mbr-section-btn {
-  margin-top: 30px;
-}
-@media (max-width: 767px) {
-  .cid-ty7aBJ5baz .mbr-section-btn {
-    margin-top: 20px;
-  }
 }
 .cid-u167FLL5W6 {
   padding-top: 5rem;
@@ -1705,6 +1659,52 @@ strong {
 .cid-u167FLL5W6 .item:nth-child(2):hover .mbr-text {
   transform: translateX(0);
   opacity: 1;
+}
+.cid-ty7aBJ5baz {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #1a1e21;
+}
+.cid-ty7aBJ5baz .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-ty7aBJ5baz .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-ty7aBJ5baz .mbr-section-title {
+  color: #e3ebf3;
+  text-align: center;
+}
+.cid-ty7aBJ5baz .mbr-section-title a {
+  pointer-events: none;
+}
+.cid-ty7aBJ5baz .mbr-section-subtitle {
+  margin-top: 40px;
+  color: #6c7a88;
+}
+@media (max-width: 1399px) {
+  .cid-ty7aBJ5baz .mbr-section-subtitle {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .cid-ty7aBJ5baz .mbr-section-subtitle {
+    margin-top: 20px;
+  }
+}
+.cid-ty7aBJ5baz .mbr-section-btn {
+  margin-top: 30px;
+}
+@media (max-width: 767px) {
+  .cid-ty7aBJ5baz .mbr-section-btn {
+    margin-top: 20px;
+  }
 }
 .cid-tXTcoeix6O {
   padding-top: 4rem;
