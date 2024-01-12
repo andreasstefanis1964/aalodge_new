@@ -918,7 +918,7 @@ strong {
 }
 @media (min-width: 992px) {
   .cid-ty78EPRWLc .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 4.1rem);
+    max-height: calc(98.5vh - 5rem);
   }
 }
 .cid-ty78EPRWLc .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1033,7 +1033,7 @@ strong {
   width: 1px;
   height: 70%;
   opacity: 0.8;
-  background-color: #2e3237;
+  background-color: #4b5158;
 }
 .cid-ty78EPRWLc .dropdown-item.active,
 .cid-ty78EPRWLc .dropdown-item:active {
@@ -1081,7 +1081,7 @@ strong {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #2e3237;
+  background-color: #4b5158;
 }
 .cid-ty78EPRWLc button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1218,7 +1218,7 @@ strong {
   height: 100vh !important;
   margin-left: 0;
   padding: 5% 10%;
-  background-image: url("../../../assets/images/background1.jpg");
+  background-image: url("../../../assets/images/background1-1.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1278,7 +1278,7 @@ strong {
     height: 100vh !important;
     margin-left: 0;
     padding: 50px;
-    background-image: url("../../../assets/images/background1.jpg");
+    background-image: url("../../../assets/images/background1-1.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1946,7 +1946,7 @@ strong {
 }
 @media (min-width: 992px) {
   .cid-u19cS84dQN .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 4.1rem);
+    max-height: calc(98.5vh - 5rem);
   }
 }
 .cid-u19cS84dQN .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -2061,7 +2061,7 @@ strong {
   width: 1px;
   height: 70%;
   opacity: 0.8;
-  background-color: #2e3237;
+  background-color: #4b5158;
 }
 .cid-u19cS84dQN .dropdown-item.active,
 .cid-u19cS84dQN .dropdown-item:active {
@@ -2109,7 +2109,7 @@ strong {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #2e3237;
+  background-color: #4b5158;
 }
 .cid-u19cS84dQN button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2246,7 +2246,7 @@ strong {
   height: 100vh !important;
   margin-left: 0;
   padding: 5% 10%;
-  background-image: url("../../../assets/images/background1.jpg");
+  background-image: url("../../../assets/images/background1-1.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2306,7 +2306,7 @@ strong {
     height: 100vh !important;
     margin-left: 0;
     padding: 50px;
-    background-image: url("../../../assets/images/background1.jpg");
+    background-image: url("../../../assets/images/background1-1.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3473,7 +3473,7 @@ strong {
 }
 @media (min-width: 992px) {
   .cid-u19ZxX0FT6 .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 4.1rem);
+    max-height: calc(98.5vh - 5rem);
   }
 }
 .cid-u19ZxX0FT6 .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -3588,7 +3588,7 @@ strong {
   width: 1px;
   height: 70%;
   opacity: 0.8;
-  background-color: #2e3237;
+  background-color: #4b5158;
 }
 .cid-u19ZxX0FT6 .dropdown-item.active,
 .cid-u19ZxX0FT6 .dropdown-item:active {
@@ -3636,7 +3636,7 @@ strong {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #2e3237;
+  background-color: #4b5158;
 }
 .cid-u19ZxX0FT6 button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -3773,7 +3773,7 @@ strong {
   height: 100vh !important;
   margin-left: 0;
   padding: 5% 10%;
-  background-image: url("../../../assets/images/background1.jpg");
+  background-image: url("../../../assets/images/background1-1.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3833,7 +3833,7 @@ strong {
     height: 100vh !important;
     margin-left: 0;
     padding: 50px;
-    background-image: url("../../../assets/images/background1.jpg");
+    background-image: url("../../../assets/images/background1-1.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
