@@ -65,7 +65,7 @@
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png",
     "global_header_custom": "<style>\n#mobiriseBanner { display: none; }\n</style>",
-    "publishChangesOnly": true
+    "publishChangesOnly": false
   },
   "pages": {
     "index.html": {
